@@ -1,6 +1,6 @@
 {
-  "name": "studynotion-client",
-  "description": "This is the client side of the StudyNotion App",
+  "name": "newProject",
+  "description": "For client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,14 +37,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "cd server && npm run dev",
     "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
     "production": [
