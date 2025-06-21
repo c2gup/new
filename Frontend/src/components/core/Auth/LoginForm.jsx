@@ -25,7 +25,7 @@ function LoginForm() {
     {
       role: "Student",
       email: "Studenttest@gmail.com",
-      password: "Instructor@123"
+      password: "123456"
     }
   ];
 
